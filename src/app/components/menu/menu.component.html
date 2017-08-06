@@ -4,19 +4,18 @@
 			<h2>Menu</h2>
 		</div>
 		<div class="col-md-6">
-			<h4 class="type">Appetizers</h4>
+			<h4 class="type" [ngClass]="{'active':type==1}">Appetizers</h4>
 			<div *ngFor="let item of appetizers | async">
 				<div class="name">{{item.name}} <span class="price">{{item.price}}</span></div>
 				<p class="details">{{item.details}}</p>
 			</div>
 		</div>
 		<div class="col-md-6">
-			<h4 class="type">Main Courses</h4>
+			<h4 class="type" [ngClass]="{'active':type==2}">Main Courses</h4>
 			<div *ngFor="let item of mainCourses | async">
 				<div class="name">{{item.name}} <span class="price">{{item.price}}</span></div>
 				<p class="details">{{item.details}}</p>
 			</div>
-			
 		</div>
 	</div>
 </div>
