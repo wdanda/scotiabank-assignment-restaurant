@@ -1,0 +1,85 @@
+//
+// Custom styles for navbar 
+//
+
+@bgDefault: #2f3ba1;
+@bgHighlight: #191e80;
+@colDefault: #9e9d9d;
+@colHighlight: #ffffff;
+
+.navbar {
+	border-radius: 0px;
+}
+
+.navbar-default {
+	background-color: @bgDefault;
+	border-color: @bgHighlight;
+	margin-bottom: 0px;
+
+	.navbar-brand {
+		padding: 2px 8px;
+		img {
+			height: 100%;
+		}
+	}
+
+	.navbar-nav {
+		> li {
+			> a {
+				color: @colDefault;
+
+				&:hover, &:focus {
+					color: @colHighlight;
+				}
+			}
+		}
+		> .active {
+			> a, > a:hover, > a:focus {
+				color: @colHighlight;
+				background-color: @bgHighlight;
+			}
+		}
+		> .open {
+			> a, > a:hover, > a:focus {
+				color: @colHighlight;
+				background-color: @bgHighlight;
+			}
+		}
+	}
+	.navbar-toggle {
+		border-color: @bgHighlight;
+
+		&:hover, &:focus {
+			background-color: @bgHighlight;
+		}
+
+		color: @colHighlight;
+	}
+	.navbar-collapse, .navbar-form {
+		border-color: @colDefault;
+	}
+	.navbar-link {
+		color: @colDefault;
+
+		&:hover {
+			color: @colHighlight;
+		}
+	}
+}
+@media (max-width:767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		> li > a {
+			color: @colDefault;
+
+			&:hover, &:focus {
+				color: @colHighlight;
+			}
+		}
+		> .active {
+			> a, > a:hover, > a:focus {
+				color: @colHighlight;
+				background-color: @bgHighlight;
+			}
+		}
+	}
+}

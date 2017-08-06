@@ -1,0 +1,25 @@
+[{
+  "name": "Foie Gras Terrine",
+  "details": "Sea salt brioche, pickled grapes, maple jelly and sour cherry glaze.",
+  "price": 29
+},
+{
+  "name": "Heirloom Tomato Salad",
+  "details": "Organic Cookstown tomatoes, English cucumbers, sunflower seeds, hemp hearts, New Farm arugula and chilled Parmesan foam. Tomato vinaigrette.",
+  "price": 24
+},
+{
+  "name": "Grilled Octopus",
+  "details": "Crispy fingerling potatoes, pickled red onion, shaved sweet lemon and parsley. Salsa verde, sweet garlic tahini and fine olive oil.",
+  "price": 23
+},
+{
+  "name": "Tempura Zucchini Blossoms",
+  "details": "Filled with house-made ricotta and lemon. Local organic arugula, marinated cherry tomatoes and pesto",
+  "price": 23
+},
+{
+  "name": "Yellowfin Tuna Crudo",
+  "details": "Orange, fennel, Castelvetrano olives, Meyer lemon, caper, fresh chili, dill and fine olive oil.",
+  "price": 25
+}]

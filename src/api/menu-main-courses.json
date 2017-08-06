@@ -1,0 +1,30 @@
+[{
+  "name": "Roast Duck Breast",
+  "details": "Jerusalem artichokes, wild mushrooms, Italian farro and quick pickled cherries. Natural jus and pistachio aïllade.",
+  "price": 42
+},
+{
+  "name": "Lamb",
+  "details": "Rack with crispy mustard crust. Swiss chard, pickled curry cherry tomatoes and carrot purée. Spicy eggplant relish and toasted walnut bread crumbs. Natural jus.",
+  "price": 49
+},
+{
+  "name": "Halibut",
+  "details": "Fingerling potatoes, capers, samphire, artichokes, cherry tomatoes and spinach. Tomato basil olive oil sauce.",
+  "price": 45
+},
+{
+  "name": "St. Canut Pork",
+  "details": "Lighlty smoked rack of Quebec suckling pig. Golden chanterelles, mustard spätzle, toasted Italian hazelnuts and sautéed greens. Natural jus and apricot mostarda.",
+  "price": 41
+},
+{
+  "name": "Sea Scallops",
+  "details": "Fennel, oven dried cherry tomatoes, zucchini, runner beans, black olives and herb purée. Crispy lemon breadcrumbs and spicy caper butter sauce.",
+  "price": 46
+},
+{
+  "name": "Grilled Filet Mignon",
+  "details": "Ontario AAA beef. Mushrooms, sliced shallot, haricot vert and crispy pressed potato tossed in parsley garlic butter. Bordelaise sauce.",
+  "price": 49
+}]
